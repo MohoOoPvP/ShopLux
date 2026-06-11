@@ -61,7 +61,7 @@ class CategoryController extends Controller
         $category->update($data);
         return redirect()->route('admin.categories.index')->with('success', 'Category updated successfully!');
     }
-
+// public fucntion for categories.
     public function destroy(Category $category)
     {
         $category->delete();
