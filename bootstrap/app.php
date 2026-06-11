@@ -1,5 +1,5 @@
 <?php
-// this should carry all the applications, exeptions and middleware stuff
+// this should carry all the applications, exeptions and middleware stuf
 use Illuminate\Foundation\Application;
 use Illuminate\Foundation\Configuration\Exceptions;
 use Illuminate\Foundation\Configuration\Middleware;
